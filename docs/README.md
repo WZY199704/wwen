@@ -3,7 +3,7 @@
 #### 安装组件库
 
 ```bash
-npm i ui-wenf
+npm i ui-demo-sw31
 ```
 
 #### 引用组件库
@@ -11,12 +11,12 @@ npm i ui-wenf
 
 ```javascript
 // 全部引入
-import 'ui-wenf/dist/css/index.css'
-import UI from 'ui-wenf'
+import 'ui-demo-sw31/dist/css/index.css'
+import UI from 'ui-demo-sw31'
 Vue.use(UI);
 
 // 按需引入
-import 'ui-wenf/dist/css/demo.css'
-import Demo from 'ui-wenf'
+import 'ui-demo-sw31/dist/css/demo.css'
+import Demo from 'ui-demo-sw31'
 Vue.use(Demo);
 ```
